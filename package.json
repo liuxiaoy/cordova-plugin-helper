@@ -1,0 +1,36 @@
+{
+  "name": "cordova-plugin-helper",
+  "version": "0.0.1",
+  "description": "helper for platform",
+  "cordova": {
+    "id": "cordova-plugin-helper",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuxiaoy/cordova-plugin-helper.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "helper"
+  ],
+  "author": "liuxiaoy",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/liuxiaoy/cordova-plugin-helper/issues"
+  },
+  "homepage": "https://github.com/liuxiaoy/cordova-plugin-helper",
+  "engines": [
+    {
+      "name": "cordova-android",
+      "version": ">=4"
+    },
+    {
+      "name": "cordova-plugman",
+      "version": ">=5.2.0"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-plugin-helper"
+        version="0.0.1">
+
+    <name>helper</name>
+    <description>helper for platform</description>
+    <license>Apache 2.0</license>
+    <keywords>helper</keywords>
+
+    <engines>
+        <engine name="cordova-android" version=">=4"/>
+        <engine name="cordova-plugman" version=">=5.2.0"/><!-- needed for gradleReference support -->
+    </engines>
+
+    <!-- android -->
+    <platform name="android">
+        <source-file src="platforms/android/src/com/liuxiaoy/cordova/helper/HelperPlugin.java" target-dir="src/src/liuxiaoy/cordova/helper"/>
+    </platform>
+</plugin>
