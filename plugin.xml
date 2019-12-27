@@ -16,6 +16,10 @@
 
     <!-- android -->
     <platform name="android">
-        <source-file src="platforms/android/src/com/liuxiaoy/cordova/helper/HelperPlugin.java" target-dir="src/src/liuxiaoy/cordova/helper"/>
+        <js-module name="HelperPlugin" src="www/HelperPlugin.js">
+            <clobbers target="HelperPlugin" />
+        </js-module>
+
+        <source-file src="platforms/android/com/liuxiaoy/cordova/helper/HelperPlugin.java" target-dir="src/com/liuxiaoy/cordova/helper"/>
     </platform>
 </plugin>
